@@ -55,7 +55,7 @@ Contém os feedbacks já classificados.
 
 ### Base de Avaliação
 
-Possui a mesma estrutura da base de treinamento, porém sem a coluna de sentimento, sendo utilizada para gerar as predições finais. :contentReference[oaicite:2]{index=2}
+Possui a mesma estrutura da base de treinamento, porém sem a coluna de sentimento, sendo utilizada para gerar as predições finais.
 
 ---
 
