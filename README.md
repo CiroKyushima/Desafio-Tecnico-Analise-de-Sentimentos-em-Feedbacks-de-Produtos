@@ -225,8 +225,6 @@ Algumas evoluções possíveis para o projeto incluem:
 - Balanceamento avançado de classes.
 - Busca de hiperparâmetros.
 - Pipeline automatizado de treinamento.
-- Deploy da solução em API.
-- Construção de dashboard para monitoramento dos feedbacks.
 
 ---
 
@@ -244,29 +242,6 @@ Este projeto proporcionou experiência prática em:
 
 Além disso, permitiu compreender como técnicas de IA podem auxiliar equipes de Produto e Experiência do Cliente na análise automática de grandes volumes de feedbacks. :contentReference[oaicite:4]{index=4}
 
----
-
-## ▶️ Como Executar
-
-### Instalar dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### Executar o Notebook
-
-```bash
-jupyter notebook
-```
-
-Abra o arquivo:
-
-```text
-classificacao_de_sentimento.ipynb
-```
-
-e execute todas as células na ordem apresentada.
 
 ---
 
@@ -288,19 +263,3 @@ e execute todas as células na ordem apresentada.
 
 ✅ Organização de Projeto de Ciência de Dados
 
----
-
-## 👨‍💻 Autor
-
-**Ciro Kyushima**
-
-Graduando em Engenharia de Computação com interesse em:
-
-- Análise de Dados
-- Engenharia de Dados
-- Machine Learning
-- Inteligência Artificial
-
-🔗 LinkedIn: www.linkedin.com/in/ciro-kyushima
-
-🐙 GitHub: https://github.com/CiroKyushima
