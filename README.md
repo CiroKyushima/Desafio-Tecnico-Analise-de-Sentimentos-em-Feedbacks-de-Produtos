@@ -36,34 +36,6 @@ A proposta do desafio era:
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```text
-analise-feedbacks-produto/
-│
-├── data/
-│   ├── feedback_produto_treino.csv
-│   ├── feedback_produto_avaliacao.csv
-│
-├── notebook/
-│   └── classificacao_de_sentimento.ipynb
-│
-├── resultados/
-│   ├── predicoes.csv
-│   └── metricas_modelos.csv
-│
-├── imagens/
-│   ├── distribuicao_classes.png
-│   ├── matriz_confusao.png
-│   └── comparativo_modelos.png
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
----
-
 ## 📊 Dataset
 
 Foram disponibilizados dois conjuntos de dados:
