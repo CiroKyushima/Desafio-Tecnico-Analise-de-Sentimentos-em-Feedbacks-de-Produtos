@@ -1,6 +1,6 @@
-# 🤖 Análise de Sentimentos em Feedbacks de Produto
+#  Análise de Sentimentos em Feedbacks de Produto
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto foi desenvolvido como parte do Bootcamp **AI/R Company – Fellowship Agentic AI – Data & AI**.
 
@@ -10,7 +10,7 @@ O objetivo principal foi desenvolver uma abordagem coerente para classificação
 
 ---
 
-## 🎯 Objetivo do Desafio
+##  Objetivo do Desafio
 
 A proposta do desafio era:
 
@@ -23,7 +23,7 @@ A proposta do desafio era:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - Python
 - Pandas
@@ -36,7 +36,7 @@ A proposta do desafio era:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 Foram disponibilizados dois conjuntos de dados:
 
@@ -59,7 +59,7 @@ Possui a mesma estrutura da base de treinamento, porém sem a coluna de sentimen
 
 ---
 
-## 🔎 Análise Exploratória dos Dados
+##  Análise Exploratória dos Dados
 
 Antes do treinamento dos modelos foram realizadas etapas de exploração para compreender melhor os dados:
 
@@ -74,7 +74,7 @@ Essas análises permitiram compreender a qualidade dos dados e identificar poss�
 
 ---
 
-## 🧹 Pré-processamento dos Textos
+##  Pré-processamento dos Textos
 
 Para preparar os feedbacks para os algoritmos de Machine Learning, foi realizado um pipeline simples de tratamento textual:
 
@@ -87,7 +87,7 @@ O objetivo foi transformar os comentários em uma representação adequada para 
 
 ---
 
-## 🔤 Vetorização com TF-IDF
+##  Vetorização com TF-IDF
 
 Foi utilizada a técnica **TF-IDF (Term Frequency – Inverse Document Frequency)** para converter os textos em variáveis numéricas.
 
@@ -102,7 +102,7 @@ A utilização de bigramas permitiu capturar expressões compostas importantes p
 
 ---
 
-## 🤖 Modelos Avaliados
+##  Modelos Avaliados
 
 Para identificar a melhor abordagem para o problema, foram treinados e comparados três modelos de classificação de texto:
 
@@ -116,7 +116,7 @@ Cada modelo foi treinado utilizando a mesma representação TF-IDF, permitindo u
 
 ---
 
-## 🔍 Estratégia de Validação
+##  Estratégia de Validação
 
 Para garantir uma avaliação mais confiável dos modelos foi utilizada validação cruzada estratificada.
 
@@ -132,7 +132,7 @@ Essa abordagem garante que cada divisão mantenha proporções semelhantes entre
 
 ---
 
-## 📈 Avaliação dos Modelos
+##  Avaliação dos Modelos
 
 Os classificadores foram avaliados através das principais métricas de classificação:
 
@@ -150,7 +150,7 @@ Essas métricas permitiram comparar o desempenho dos modelos e selecionar a melh
 
 ---
 
-## 📊 Comparação dos Modelos
+##  Comparação dos Modelos
 
 Após o treinamento, os resultados dos três classificadores foram comparados para identificar qual apresentava melhor capacidade de generalização.
 
@@ -163,7 +163,7 @@ A comparação considerou:
 
 ---
 
-## 🔮 Inferência e Predições
+##  Inferência e Predições
 
 Além da avaliação dos modelos, foi implementado um processo de inferência para analisar novos feedbacks.
 
@@ -177,7 +177,7 @@ Para permitir estimativas de probabilidade no Linear SVC foi utilizada a técnic
 
 ---
 
-## 📤 Geração da Base de Submissão
+##  Geração da Base de Submissão
 
 Após a seleção do modelo final, foram geradas as predições da base de avaliação.
 
@@ -195,7 +195,7 @@ Mantendo o identificador original do feedback e a classificação produzida pelo
 
 ---
 
-## 🏆 Resultados
+##  Resultados
 
 Os modelos avaliados apresentaram excelente desempenho para o conjunto de dados disponibilizado.
 
@@ -203,7 +203,7 @@ A comparação entre diferentes algoritmos permitiu identificar a abordagem mais
 
 ---
 
-## 🚧 Limitações da Solução
+##  Limitações da Solução
 
 Embora os resultados tenham sido satisfatórios, algumas limitações foram identificadas:
 
@@ -215,7 +215,7 @@ Embora os resultados tenham sido satisfatórios, algumas limitações foram iden
 
 ---
 
-## 🚀 Melhorias Futuras
+##  Melhorias Futuras
 
 Algumas evoluções possíveis para o projeto incluem:
 
@@ -228,7 +228,7 @@ Algumas evoluções possíveis para o projeto incluem:
 
 ---
 
-## 💡 Aprendizados
+##  Aprendizados
 
 Este projeto proporcionou experiência prática em:
 
@@ -245,21 +245,20 @@ Além disso, permitiu compreender como técnicas de IA podem auxiliar equipes de
 
 ---
 
-## 📌 Principais Competências Demonstradas
+##  Principais Competências Demonstradas
 
-✅ Processamento de Linguagem Natural (NLP)
+- Processamento de Linguagem Natural (NLP)
 
-✅ Vetorização de Texto com TF-IDF
+- Vetorização de Texto com TF-IDF
 
-✅ Validação Cruzada (Stratified K-Fold)
+- Validação Cruzada (Stratified K-Fold)
 
-✅ Comparação de Algoritmos de Machine Learning
+- Comparação de Algoritmos de Machine Learning
 
-✅ Avaliação de Modelos
+- Avaliação de Modelos
 
-✅ Classificação de Sentimentos
+- Classificação de Sentimentos
 
-✅ Geração de Predições
+- Geração de Predições
 
-✅ Organização de Projeto de Ciência de Dados
-
+- Organização de Projeto de Ciência de Dados
