@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte do Bootcamp **AI/R Company – Fellowsh
 
 O desafio consistiu em analisar feedbacks textuais enviados por clientes através de diferentes canais de comunicação e construir uma solução capaz de identificar automaticamente o sentimento associado a cada comentário.
 
-O objetivo principal foi desenvolver uma abordagem coerente para classificação de textos, realizando desde a exploração dos dados até a geração de predições para novos feedbacks, demonstrando raciocínio técnico, tratamento adequado dos dados e interpretação dos resultados. :contentReference[oaicite:0]{index=0}
+O objetivo principal foi desenvolver uma abordagem coerente para classificação de textos, realizando desde a exploração dos dados até a geração de predições para novos feedbacks, demonstrando raciocínio técnico, tratamento adequado dos dados e interpretação dos resultados.
 
 ---
 
@@ -19,7 +19,7 @@ A proposta do desafio era:
 - Implementar uma solução funcional.
 - Apresentar resultados obtidos.
 - Discutir limitações da abordagem utilizada.
-- Sugerir possíveis melhorias futuras. :contentReference[oaicite:1]{index=1}
+- Sugerir possíveis melhorias futuras.
 
 ---
 
@@ -191,7 +191,7 @@ id_feedback,sentimento
 ...
 ```
 
-Mantendo o identificador original do feedback e a classificação produzida pelo modelo. :contentReference[oaicite:3]{index=3}
+Mantendo o identificador original do feedback e a classificação produzida pelo modelo.
 
 ---
 
@@ -240,8 +240,7 @@ Este projeto proporcionou experiência prática em:
 - Avaliação de Classificadores
 - Geração de Predições para Dados Não Rotulados
 
-Além disso, permitiu compreender como técnicas de IA podem auxiliar equipes de Produto e Experiência do Cliente na análise automática de grandes volumes de feedbacks. :contentReference[oaicite:4]{index=4}
-
+Além disso, permitiu compreender como técnicas de IA podem auxiliar equipes de Produto e Experiência do Cliente na análise automática de grandes volumes de feedbacks.
 
 ---
 
